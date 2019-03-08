@@ -1,18 +1,30 @@
-const http = require('http')
-const fs = require('fs')
+const http = require('http');
+const fs = require('fs');
 
-const express = require('express')
-var app = express()
+const express = require('express');
+var app = express();
 
-const mysql = require('mysql')
-const port = 3000
-const path = require('path')
-const bodyParser = require("body-parser")
+const mysql = require('mysql');
+const port = 3000;
+const path = require('path');
+const bodyParser = require("body-parser");
+const steam_weather_data = require('./steam_open_weather.json');
 
-const STEAM_KEY = "391768357C21EE63635C1EB192023782"
+function steamID_grab_information(steam_weather_data, steamID) {
+    return steam_weather_data[0][steamID];
+}
+
+function weatherID_grab_information(steam_weather_data, weatherID) {
+    return steam_weather_data[1][weatherID];
+}
+
+console.log(steamID_grab_information(steam_weather_data, 46984));
+console.log(weatherID_grab_information(steam_weather_data, 4046332));
+
+const STEAM_KEY = "391768357C21EE63635C1EB192023782";
 var api_url = "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key="
-                + STEAM_KEY + "&steamids="// + "76561198027222452"
-var request = require('request')
+                + STEAM_KEY + "&steamids=";// + "76561198027222452"
+var request = require('request');
 
 var pool = mysql.createPool({
 	host: "classmysql.engr.oregonstate.edu",
@@ -35,7 +47,7 @@ app.use(bodyParser.json());
 // JS
 // app.get('/name_of_action', function (req, res)
 app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname + "/index.html"))
+    res.sendFile(path.join(__dirname + "/index.html"));
 });
 
 // POST ACTIONS
@@ -54,7 +66,7 @@ app.post('/addSteamData', function (req, res) {
 
     //api_url + list_of_ids
 
-    var big_id_list = fs.readFileSync("pages1-57.txt").toString().split("\n")
+    var big_id_list = fs.readFileSync("pages1-57.txt").toString().split("\n");
 
     //console.log(big_id_list.length)
 
@@ -108,4 +120,4 @@ app.post('/addSteamData', function (req, res) {
     res.redirect('back');
 });
 
-app.listen(port)
+app.listen(port);
