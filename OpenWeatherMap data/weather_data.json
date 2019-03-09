@@ -1,0 +1,5787 @@
+{
+    "base": "stations",
+    "clouds": {
+        "all": 90
+    },
+    "cod": 200,
+    "coord": {
+        "lat": 39.3,
+        "lon": -75.6
+    },
+    "dt": 1552096450,
+    "id": 4144764,
+    "main": {
+        "humidity": 100,
+        "pressure": 1023,
+        "temp": 0.46,
+        "temp_max": 1.11,
+        "temp_min": -0.57
+    },
+    "name": "Smyrna",
+    "rain": {
+        "1h": 0.35
+    },
+    "snow": {
+        "1h": 0.02
+    },
+    "sys": {
+        "country": "US",
+        "id": 3847,
+        "message": 0.0079,
+        "sunrise": 1552130600,
+        "sunset": 1552172584,
+        "type": 1
+    },
+    "visibility": 16093,
+    "weather": [
+        {
+            "description": "light rain",
+            "icon": "10n",
+            "id": 500,
+            "main": "Rain"
+        },
+        {
+            "description": "light snow",
+            "icon": "13n",
+            "id": 600,
+            "main": "Snow"
+        },
+        {
+            "description": "mist",
+            "icon": "50n",
+            "id": 701,
+            "main": "Mist"
+        }
+    ],
+    "wind": {
+        "deg": 80,
+        "speed": 1.5
+    }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 1
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 32.15,
+    "lon": -94.8
+  },
+  "dt": 1552096024,
+  "id": 4046332,
+  "main": {
+    "humidity": 82,
+    "pressure": 1011,
+    "temp": 22.03,
+    "temp_max": 23.33,
+    "temp_min": 20
+  },
+  "name": "Henderson",
+  "sys": {
+    "country": "US",
+    "id": 5656,
+    "message": 0.0076,
+    "sunrise": 1552135022,
+    "sunset": 1552177369,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    }
+  ],
+  "wind": {
+    "deg": 150,
+    "speed": 2.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 38.73,
+    "lon": -77.06
+  },
+  "dt": 1552096026,
+  "id": 4046704,
+  "main": {
+    "humidity": 100,
+    "pressure": 1023,
+    "temp": 0.51,
+    "temp_max": 1.67,
+    "temp_min": -0.57
+  },
+  "name": "Fort Hunt",
+  "rain": {
+    "1h": 0.32
+  },
+  "snow": {
+    "1h": 0.11
+  },
+  "sys": {
+    "country": "US",
+    "id": 3231,
+    "message": 0.0094,
+    "sunrise": 1552130935,
+    "sunset": 1552172950,
+    "type": 1
+  },
+  "visibility": 6437,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 172.001,
+    "speed": 1.41
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 26.55,
+    "lon": -81.87
+  },
+  "dt": 1552096223,
+  "id": 4047914,
+  "main": {
+    "humidity": 77,
+    "pressure": 1020,
+    "temp": 21.36,
+    "temp_max": 23,
+    "temp_min": 19.44
+  },
+  "name": "Villas",
+  "sys": {
+    "country": "US",
+    "id": 4526,
+    "message": 0.0074,
+    "sunrise": 1552131796,
+    "sunset": 1552174384,
+    "type": 1
+  },
+  "visibility": 14484,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 113.001,
+    "speed": 4.31
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.4,
+    "lon": -86.95
+  },
+  "dt": 1552096226,
+  "id": 4048023,
+  "main": {
+    "humidity": 64,
+    "pressure": 1016,
+    "temp": 19.44,
+    "temp_max": 21,
+    "temp_min": 17.78
+  },
+  "name": "Bessemer",
+  "sys": {
+    "country": "US",
+    "id": 5791,
+    "message": 0.006,
+    "sunrise": 1552133170,
+    "sunset": 1552175455,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 210,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 37.08,
+    "lon": -88.6
+  },
+  "dt": 1552096500,
+  "id": 4048662,
+  "main": {
+    "humidity": 100,
+    "pressure": 1016,
+    "temp": 6.84,
+    "temp_max": 8,
+    "temp_min": 5.56
+  },
+  "name": "Paducah",
+  "sys": {
+    "country": "US",
+    "id": 4818,
+    "message": 0.016,
+    "sunrise": 1552133658,
+    "sunset": 1552175763,
+    "type": 1
+  },
+  "visibility": 8047,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 50,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.52,
+    "lon": -86.8
+  },
+  "dt": 1552096354,
+  "id": 4049979,
+  "main": {
+    "humidity": 64,
+    "pressure": 1016,
+    "temp": 19.35,
+    "temp_max": 21,
+    "temp_min": 17.78
+  },
+  "name": "Birmingham",
+  "sys": {
+    "country": "US",
+    "id": 5791,
+    "message": 0.0056,
+    "sunrise": 1552133136,
+    "sunset": 1552175417,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 210,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 75
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.17,
+    "lon": -86.84
+  },
+  "dt": 1552096347,
+  "id": 4057835,
+  "main": {
+    "humidity": 93,
+    "pressure": 1016,
+    "temp": 15.5,
+    "temp_max": 19.44,
+    "temp_min": 11.67
+  },
+  "name": "Cullman",
+  "rain": {
+    "1h": 1.13
+  },
+  "sys": {
+    "country": "US",
+    "id": 3658,
+    "message": 0.0069,
+    "sunrise": 1552133162,
+    "sunset": 1552175411,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 200,
+    "speed": 5.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 40
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 30.6,
+    "lon": -87.9
+  },
+  "dt": 1552096337,
+  "id": 4058219,
+  "main": {
+    "humidity": 93,
+    "pressure": 1018,
+    "temp": 18.17,
+    "temp_max": 19,
+    "temp_min": 17.22
+  },
+  "name": "Daphne",
+  "sys": {
+    "country": "US",
+    "id": 4584,
+    "message": 0.0066,
+    "sunrise": 1552133332,
+    "sunset": 1552175746,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "scattered clouds",
+      "icon": "03n",
+      "id": 802,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 172.001,
+    "speed": 4.01
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.61,
+    "lon": -86.98
+  },
+  "dt": 1552096190,
+  "id": 4058553,
+  "main": {
+    "humidity": 93,
+    "pressure": 1015,
+    "temp": 13.98,
+    "temp_max": 16.67,
+    "temp_min": 11.67
+  },
+  "name": "Decatur",
+  "rain": {
+    "1h": 1.37
+  },
+  "sys": {
+    "country": "US",
+    "id": 4433,
+    "message": 0.0069,
+    "sunrise": 1552133206,
+    "sunset": 1552175434,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 192.001,
+    "speed": 3.91
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 1
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 31.22,
+    "lon": -85.39
+  },
+  "dt": 1552096170,
+  "id": 4059102,
+  "main": {
+    "humidity": 63,
+    "pressure": 1019,
+    "temp": 17.58,
+    "temp_max": 18,
+    "temp_min": 16.67
+  },
+  "name": "Dothan",
+  "sys": {
+    "country": "US",
+    "id": 2686,
+    "message": 0.0049,
+    "sunrise": 1552132744,
+    "sunset": 1552175130,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    }
+  ],
+  "wind": {
+    "deg": 230,
+    "speed": 3.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 1
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 31.32,
+    "lon": -85.86
+  },
+  "dt": 1552096114,
+  "id": 4060791,
+  "main": {
+    "humidity": 88,
+    "pressure": 1018,
+    "temp": 17.7,
+    "temp_max": 19,
+    "temp_min": 16.67
+  },
+  "name": "Enterprise",
+  "sys": {
+    "country": "US",
+    "id": 3939,
+    "message": 0.0051,
+    "sunrise": 1552132859,
+    "sunset": 1552175240,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    }
+  ],
+  "wind": {
+    "deg": 180,
+    "speed": 4.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 1
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 31.89,
+    "lon": -85.15
+  },
+  "dt": 1552096112,
+  "id": 4060954,
+  "main": {
+    "humidity": 63,
+    "pressure": 1019,
+    "temp": 17.05,
+    "temp_max": 19,
+    "temp_min": 15
+  },
+  "name": "Eufaula",
+  "sys": {
+    "country": "US",
+    "id": 3439,
+    "message": 0.0059,
+    "sunrise": 1552132702,
+    "sunset": 1552175057,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    }
+  ],
+  "wind": {
+    "deg": 210,
+    "speed": 2.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.49,
+    "lon": -86.91
+  },
+  "dt": 1552096354,
+  "id": 4061206,
+  "main": {
+    "humidity": 64,
+    "pressure": 1016,
+    "temp": 19.35,
+    "temp_max": 21,
+    "temp_min": 17.78
+  },
+  "name": "Fairfield",
+  "sys": {
+    "country": "US",
+    "id": 5791,
+    "message": 0.0049,
+    "sunrise": 1552133162,
+    "sunset": 1552175444,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 210,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 40
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 30.52,
+    "lon": -87.9
+  },
+  "dt": 1552096138,
+  "id": 4061234,
+  "main": {
+    "humidity": 93,
+    "pressure": 1018,
+    "temp": 18.2,
+    "temp_max": 19,
+    "temp_min": 17.22
+  },
+  "name": "Fairhope",
+  "sys": {
+    "country": "US",
+    "id": 4584,
+    "message": 0.0053,
+    "sunrise": 1552133330,
+    "sunset": 1552175748,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "scattered clouds",
+      "icon": "03n",
+      "id": 802,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 173.501,
+    "speed": 3.96
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.8,
+    "lon": -87.68
+  },
+  "dt": 1552096051,
+  "id": 4062577,
+  "main": {
+    "humidity": 93,
+    "pressure": 1015,
+    "temp": 14.12,
+    "temp_max": 16.67,
+    "temp_min": 11.67
+  },
+  "name": "Florence",
+  "rain": {
+    "1h": 2.36
+  },
+  "sys": {
+    "country": "US",
+    "id": 4977,
+    "message": 0.0104,
+    "sunrise": 1552133379,
+    "sunset": 1552175598,
+    "type": 1
+  },
+  "visibility": 4828,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 340,
+    "speed": 3.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.44,
+    "lon": -85.72
+  },
+  "dt": 1552096135,
+  "id": 4062861,
+  "main": {
+    "humidity": 100,
+    "pressure": 1015,
+    "temp": 11.13,
+    "temp_max": 15,
+    "temp_min": 6.67
+  },
+  "name": "Fort Payne",
+  "rain": {
+    "1h": 2.75
+  },
+  "sys": {
+    "country": "US",
+    "id": 2940,
+    "message": 0.0057,
+    "sunrise": 1552132900,
+    "sunset": 1552175136,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 189.501,
+    "speed": 2.66
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.01,
+    "lon": -86.01
+  },
+  "dt": 1552096202,
+  "id": 4063619,
+  "main": {
+    "humidity": 100,
+    "pressure": 1016,
+    "temp": 15.98,
+    "temp_max": 20,
+    "temp_min": 11.67
+  },
+  "name": "Gadsden",
+  "rain": {
+    "1h": 1.05
+  },
+  "sys": {
+    "country": "US",
+    "id": 4176,
+    "message": 0.0054,
+    "sunrise": 1552132959,
+    "sunset": 1552175215,
+    "type": 1
+  },
+  "visibility": 14484,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 70,
+    "speed": 3.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.66,
+    "lon": -86.81
+  },
+  "dt": 1552096226,
+  "id": 4063765,
+  "main": {
+    "humidity": 64,
+    "pressure": 1016,
+    "temp": 19.22,
+    "temp_max": 21,
+    "temp_min": 17.22
+  },
+  "name": "Gardendale",
+  "sys": {
+    "country": "US",
+    "id": 3436,
+    "message": 0.0054,
+    "sunrise": 1552133142,
+    "sunset": 1552175416,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 200,
+    "speed": 5.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.44,
+    "lon": -86.94
+  },
+  "dt": 1552096230,
+  "id": 4066449,
+  "main": {
+    "humidity": 93,
+    "pressure": 1015,
+    "temp": 14.33,
+    "temp_max": 17.22,
+    "temp_min": 11.67
+  },
+  "name": "Hartselle",
+  "rain": {
+    "1h": 1.36
+  },
+  "sys": {
+    "country": "US",
+    "id": 4433,
+    "message": 0.0083,
+    "sunrise": 1552133193,
+    "sunset": 1552175429,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 178.001,
+    "speed": 2.21
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.3,
+    "lon": -86.84
+  },
+  "dt": 1552095996,
+  "id": 4066811,
+  "main": {
+    "humidity": 64,
+    "pressure": 1016,
+    "temp": 19.28,
+    "temp_max": 20,
+    "temp_min": 17.78
+  },
+  "name": "Helena",
+  "sys": {
+    "country": "US",
+    "id": 5791,
+    "message": 0.006,
+    "sunrise": 1552133141,
+    "sunset": 1552175431,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 210,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.47,
+    "lon": -86.8
+  },
+  "dt": 1552096226,
+  "id": 4067927,
+  "main": {
+    "humidity": 64,
+    "pressure": 1016,
+    "temp": 19.36,
+    "temp_max": 21,
+    "temp_min": 17.78
+  },
+  "name": "Homewood",
+  "sys": {
+    "country": "US",
+    "id": 5791,
+    "message": 0.0047,
+    "sunrise": 1552133135,
+    "sunset": 1552175418,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 210,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.41,
+    "lon": -86.81
+  },
+  "dt": 1552096204,
+  "id": 4067994,
+  "main": {
+    "humidity": 64,
+    "pressure": 1016,
+    "temp": 19.3,
+    "temp_max": 20,
+    "temp_min": 17.78
+  },
+  "name": "Hoover",
+  "sys": {
+    "country": "US",
+    "id": 5791,
+    "message": 0.0056,
+    "sunrise": 1552133136,
+    "sunset": 1552175421,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 210,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.45,
+    "lon": -87
+  },
+  "dt": 1552096226,
+  "id": 4068446,
+  "main": {
+    "humidity": 72,
+    "pressure": 1016,
+    "temp": 19.4,
+    "temp_max": 21,
+    "temp_min": 17.78
+  },
+  "name": "Hueytown",
+  "sys": {
+    "country": "US",
+    "id": 3965,
+    "message": 0.0057,
+    "sunrise": 1552133183,
+    "sunset": 1552175466,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 180,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.73,
+    "lon": -86.59
+  },
+  "dt": 1552095961,
+  "id": 4068590,
+  "main": {
+    "humidity": 100,
+    "pressure": 1015,
+    "temp": 13.85,
+    "temp_max": 16.67,
+    "temp_min": 11
+  },
+  "name": "Huntsville",
+  "rain": {
+    "1h": 1.2
+  },
+  "sys": {
+    "country": "US",
+    "id": 4170,
+    "message": 0.0071,
+    "sunrise": 1552133116,
+    "sunset": 1552175338,
+    "type": 1
+  },
+  "visibility": 3219,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 3.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.54,
+    "lon": -86.71
+  },
+  "dt": 1552096226,
+  "id": 4069243,
+  "main": {
+    "humidity": 64,
+    "pressure": 1016,
+    "temp": 19.35,
+    "temp_max": 21,
+    "temp_min": 17.78
+  },
+  "name": "Irondale",
+  "sys": {
+    "country": "US",
+    "id": 5791,
+    "message": 0.0053,
+    "sunrise": 1552133116,
+    "sunset": 1552175394,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 210,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.81,
+    "lon": -85.76
+  },
+  "dt": 1552096215,
+  "id": 4069553,
+  "main": {
+    "humidity": 68,
+    "pressure": 1016,
+    "temp": 15.95,
+    "temp_max": 20,
+    "temp_min": 10.56
+  },
+  "name": "Jacksonville",
+  "rain": {
+    "1h": 1.89
+  },
+  "sys": {
+    "country": "US",
+    "id": 3332,
+    "message": 0.005,
+    "sunrise": 1552132894,
+    "sunset": 1552175160,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 200,
+    "speed": 3.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 92
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.83,
+    "lon": -87.28
+  },
+  "dt": 1552096227,
+  "id": 4069659,
+  "main": {
+    "humidity": 100,
+    "pressure": 1015,
+    "temp": 18.32,
+    "temp_max": 21,
+    "temp_min": 16
+  },
+  "name": "Jasper",
+  "sys": {
+    "country": "US",
+    "id": 4579,
+    "message": 0.0046,
+    "sunrise": 1552133259,
+    "sunset": 1552175525,
+    "type": 1
+  },
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    }
+  ],
+  "wind": {
+    "deg": 186.001,
+    "speed": 2.61
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.55,
+    "lon": -86.54
+  },
+  "dt": 1552096226,
+  "id": 4072130,
+  "main": {
+    "humidity": 68,
+    "pressure": 1016,
+    "temp": 19.27,
+    "temp_max": 21,
+    "temp_min": 17.22
+  },
+  "name": "Leeds",
+  "sys": {
+    "country": "US",
+    "id": 3332,
+    "message": 0.0059,
+    "sunrise": 1552133075,
+    "sunset": 1552175353,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 200,
+    "speed": 3.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.7,
+    "lon": -86.75
+  },
+  "dt": 1552096216,
+  "id": 4074267,
+  "main": {
+    "humidity": 93,
+    "pressure": 1015,
+    "temp": 13.91,
+    "temp_max": 16.67,
+    "temp_min": 11.67
+  },
+  "name": "Madison",
+  "rain": {
+    "1h": 1.42
+  },
+  "sys": {
+    "country": "US",
+    "id": 4441,
+    "message": 0.0083,
+    "sunrise": 1552133154,
+    "sunset": 1552175377,
+    "type": 1
+  },
+  "visibility": 9656,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 192.001,
+    "speed": 3.91
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 24
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 32.48,
+    "lon": -86.36
+  },
+  "dt": 1552095995,
+  "id": 4076239,
+  "main": {
+    "humidity": 72,
+    "pressure": 1017,
+    "temp": 19.22,
+    "temp_max": 20,
+    "temp_min": 18.33
+  },
+  "name": "Millbrook",
+  "sys": {
+    "country": "US",
+    "id": 5807,
+    "message": 0.005,
+    "sunrise": 1552133006,
+    "sunset": 1552175335,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "few clouds",
+      "icon": "02n",
+      "id": 801,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 200.001,
+    "speed": 4.81
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 40
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 30.69,
+    "lon": -88.04
+  },
+  "dt": 1552096243,
+  "id": 4076598,
+  "main": {
+    "humidity": 93,
+    "pressure": 1018,
+    "temp": 18.18,
+    "temp_max": 19,
+    "temp_min": 17.22
+  },
+  "name": "Mobile",
+  "sys": {
+    "country": "US",
+    "id": 4584,
+    "message": 0.0064,
+    "sunrise": 1552133367,
+    "sunset": 1552175778,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "scattered clouds",
+      "icon": "03n",
+      "id": 802,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 173.501,
+    "speed": 3.96
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 40
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 32.37,
+    "lon": -86.3
+  },
+  "dt": 1552096379,
+  "id": 4076784,
+  "main": {
+    "humidity": 72,
+    "pressure": 1017,
+    "temp": 18.78,
+    "temp_max": 20,
+    "temp_min": 17.22
+  },
+  "name": "Montgomery",
+  "sys": {
+    "country": "US",
+    "id": 2713,
+    "message": 0.0063,
+    "sunrise": 1552132989,
+    "sunset": 1552175323,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "scattered clouds",
+      "icon": "03n",
+      "id": 802,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 190,
+    "speed": 2.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.5,
+    "lon": -86.75
+  },
+  "dt": 1552096384,
+  "id": 4078646,
+  "main": {
+    "humidity": 64,
+    "pressure": 1016,
+    "temp": 19.36,
+    "temp_max": 21,
+    "temp_min": 17.78
+  },
+  "name": "Mountain Brook",
+  "sys": {
+    "country": "US",
+    "id": 5791,
+    "message": 0.0076,
+    "sunrise": 1552133124,
+    "sunset": 1552175405,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 210,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.74,
+    "lon": -87.67
+  },
+  "dt": 1552096383,
+  "id": 4078964,
+  "main": {
+    "humidity": 100,
+    "pressure": 1015,
+    "temp": 14.29,
+    "temp_max": 17.22,
+    "temp_min": 11.67
+  },
+  "name": "Muscle Shoals",
+  "rain": {
+    "1h": 2.22
+  },
+  "sys": {
+    "country": "US",
+    "id": 4977,
+    "message": 0.0063,
+    "sunrise": 1552133375,
+    "sunset": 1552175597,
+    "type": 1
+  },
+  "visibility": 6437,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 40,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.23,
+    "lon": -87.58
+  },
+  "dt": 1552096407,
+  "id": 4080555,
+  "main": {
+    "humidity": 68,
+    "pressure": 1016,
+    "temp": 19.59,
+    "temp_max": 21,
+    "temp_min": 18.33
+  },
+  "name": "Northport",
+  "sys": {
+    "country": "US",
+    "id": 6001,
+    "message": 0.0048,
+    "sunrise": 1552133317,
+    "sunset": 1552175611,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 190,
+    "speed": 4.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 32.65,
+    "lon": -85.38
+  },
+  "dt": 1552096071,
+  "id": 4081644,
+  "main": {
+    "humidity": 52,
+    "pressure": 1017,
+    "temp": 17.85,
+    "temp_max": 19,
+    "temp_min": 15.56
+  },
+  "name": "Opelika",
+  "sys": {
+    "country": "US",
+    "id": 4705,
+    "message": 0.0043,
+    "sunrise": 1552132775,
+    "sunset": 1552175095,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 180,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.61,
+    "lon": -85.83
+  },
+  "dt": 1552096202,
+  "id": 4081914,
+  "main": {
+    "humidity": 68,
+    "pressure": 1016,
+    "temp": 17.59,
+    "temp_max": 20,
+    "temp_min": 13
+  },
+  "name": "Oxford",
+  "rain": {
+    "1h": 0.51
+  },
+  "sys": {
+    "country": "US",
+    "id": 3332,
+    "message": 0.0052,
+    "sunrise": 1552132906,
+    "sunset": 1552175182,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 200,
+    "speed": 3.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 1
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 31.46,
+    "lon": -85.64
+  },
+  "dt": 1552096415,
+  "id": 4081936,
+  "main": {
+    "humidity": 88,
+    "pressure": 1018,
+    "temp": 17.52,
+    "temp_max": 18,
+    "temp_min": 16.67
+  },
+  "name": "Ozark",
+  "sys": {
+    "country": "US",
+    "id": 3939,
+    "message": 0.0041,
+    "sunrise": 1552132809,
+    "sunset": 1552175185,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    }
+  ],
+  "wind": {
+    "deg": 180,
+    "speed": 4.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.29,
+    "lon": -86.81
+  },
+  "dt": 1552096277,
+  "id": 4082569,
+  "main": {
+    "humidity": 64,
+    "pressure": 1016,
+    "temp": 19.29,
+    "temp_max": 20,
+    "temp_min": 17.78
+  },
+  "name": "Pelham",
+  "sys": {
+    "country": "US",
+    "id": 5791,
+    "message": 0.0051,
+    "sunrise": 1552133133,
+    "sunset": 1552175424,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 210,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.59,
+    "lon": -86.29
+  },
+  "dt": 1552096407,
+  "id": 4082589,
+  "main": {
+    "humidity": 68,
+    "pressure": 1016,
+    "temp": 19.05,
+    "temp_max": 21,
+    "temp_min": 16.67
+  },
+  "name": "Pell City",
+  "sys": {
+    "country": "US",
+    "id": 3332,
+    "message": 0.0068,
+    "sunrise": 1552133016,
+    "sunset": 1552175292,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 200,
+    "speed": 3.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 40
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 32.47,
+    "lon": -85
+  },
+  "dt": 1552096071,
+  "id": 4082866,
+  "main": {
+    "humidity": 42,
+    "pressure": 1018,
+    "temp": 17.45,
+    "temp_max": 19,
+    "temp_min": 15
+  },
+  "name": "Phenix City",
+  "sys": {
+    "country": "US",
+    "id": 5359,
+    "message": 0.0052,
+    "sunrise": 1552132680,
+    "sunset": 1552175008,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "scattered clouds",
+      "icon": "03n",
+      "id": 802,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 170,
+    "speed": 2.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.49,
+    "lon": -86.97
+  },
+  "dt": 1552096407,
+  "id": 4083846,
+  "main": {
+    "humidity": 72,
+    "pressure": 1016,
+    "temp": 19.42,
+    "temp_max": 21,
+    "temp_min": 17.78
+  },
+  "name": "Pleasant Grove",
+  "sys": {
+    "country": "US",
+    "id": 3965,
+    "message": 0.005,
+    "sunrise": 1552133177,
+    "sunset": 1552175458,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 180,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 40
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 32.46,
+    "lon": -86.46
+  },
+  "dt": 1552096324,
+  "id": 4084796,
+  "main": {
+    "humidity": 72,
+    "pressure": 1017,
+    "temp": 19.14,
+    "temp_max": 20,
+    "temp_min": 18.33
+  },
+  "name": "Prattville",
+  "sys": {
+    "country": "US",
+    "id": 2713,
+    "message": 0.0045,
+    "sunrise": 1552133030,
+    "sunset": 1552175359,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "scattered clouds",
+      "icon": "03n",
+      "id": 802,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 190,
+    "speed": 2.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 40
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 30.74,
+    "lon": -88.08
+  },
+  "dt": 1552096337,
+  "id": 4084888,
+  "main": {
+    "humidity": 88,
+    "pressure": 1018,
+    "temp": 18.22,
+    "temp_max": 19.44,
+    "temp_min": 17.22
+  },
+  "name": "Prichard",
+  "sys": {
+    "country": "US",
+    "id": 3692,
+    "message": 0.0056,
+    "sunrise": 1552133378,
+    "sunset": 1552175786,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "scattered clouds",
+      "icon": "03n",
+      "id": 802,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 150,
+    "speed": 3.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 40
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 30.82,
+    "lon": -88.07
+  },
+  "dt": 1552096376,
+  "id": 4088628,
+  "main": {
+    "humidity": 88,
+    "pressure": 1018,
+    "temp": 18.15,
+    "temp_max": 19,
+    "temp_min": 17.22
+  },
+  "name": "Saraland",
+  "sys": {
+    "country": "US",
+    "id": 3692,
+    "message": 0.0049,
+    "sunrise": 1552133377,
+    "sunset": 1552175782,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "scattered clouds",
+      "icon": "03n",
+      "id": 802,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 150,
+    "speed": 3.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.67,
+    "lon": -86.03
+  },
+  "dt": 1552096411,
+  "id": 4088916,
+  "main": {
+    "humidity": 100,
+    "pressure": 1016,
+    "temp": 13.46,
+    "temp_max": 16.11,
+    "temp_min": 9.44
+  },
+  "name": "Scottsboro",
+  "rain": {
+    "1h": 1.34
+  },
+  "sys": {
+    "country": "US",
+    "id": 2937,
+    "message": 0.0072,
+    "sunrise": 1552132980,
+    "sunset": 1552175205,
+    "type": 1
+  },
+  "visibility": 8047,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    }
+  ],
+  "wind": {
+    "deg": 350,
+    "speed": 4.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 68
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 32.41,
+    "lon": -87.02
+  },
+  "dt": 1552096379,
+  "id": 4089114,
+  "main": {
+    "humidity": 72,
+    "pressure": 1017,
+    "temp": 19.43,
+    "temp_max": 20,
+    "temp_min": 18.89
+  },
+  "name": "Selma",
+  "sys": {
+    "country": "US",
+    "id": 5807,
+    "message": 0.0037,
+    "sunrise": 1552133163,
+    "sunset": 1552175495,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "broken clouds",
+      "icon": "04n",
+      "id": 803,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 209.001,
+    "speed": 3.51
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.77,
+    "lon": -87.7
+  },
+  "dt": 1552096263,
+  "id": 4089536,
+  "main": {
+    "humidity": 100,
+    "pressure": 1015,
+    "temp": 14.12,
+    "temp_max": 16.67,
+    "temp_min": 11.67
+  },
+  "name": "Sheffield",
+  "rain": {
+    "1h": 2.41
+  },
+  "sys": {
+    "country": "US",
+    "id": 4977,
+    "message": 0.0052,
+    "sunrise": 1552133383,
+    "sunset": 1552175603,
+    "type": 1
+  },
+  "visibility": 6437,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 40,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.17,
+    "lon": -86.25
+  },
+  "dt": 1552096277,
+  "id": 4092671,
+  "main": {
+    "humidity": 64,
+    "pressure": 1016,
+    "temp": 19.21,
+    "temp_max": 21,
+    "temp_min": 17
+  },
+  "name": "Sylacauga",
+  "sys": {
+    "country": "US",
+    "id": 5791,
+    "message": 0.005,
+    "sunrise": 1552132996,
+    "sunset": 1552175293,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 210,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.44,
+    "lon": -86.11
+  },
+  "dt": 1552096224,
+  "id": 4092788,
+  "main": {
+    "humidity": 68,
+    "pressure": 1016,
+    "temp": 19.06,
+    "temp_max": 21,
+    "temp_min": 16.67
+  },
+  "name": "Talladega",
+  "sys": {
+    "country": "US",
+    "id": 3332,
+    "message": 0.005,
+    "sunrise": 1552132969,
+    "sunset": 1552175253,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 200,
+    "speed": 3.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 75
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 31.81,
+    "lon": -85.97
+  },
+  "dt": 1552095995,
+  "id": 4094163,
+  "main": {
+    "humidity": 77,
+    "pressure": 1018,
+    "temp": 18.06,
+    "temp_max": 19.44,
+    "temp_min": 16.67
+  },
+  "name": "Troy",
+  "sys": {
+    "country": "US",
+    "id": 3078,
+    "message": 0.0046,
+    "sunrise": 1552132897,
+    "sunset": 1552175256,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "broken clouds",
+      "icon": "04n",
+      "id": 803,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 190,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.62,
+    "lon": -86.61
+  },
+  "dt": 1552096226,
+  "id": 4094212,
+  "main": {
+    "humidity": 68,
+    "pressure": 1016,
+    "temp": 19.26,
+    "temp_max": 21,
+    "temp_min": 17.22
+  },
+  "name": "Trussville",
+  "sys": {
+    "country": "US",
+    "id": 3332,
+    "message": 0.0052,
+    "sunrise": 1552133093,
+    "sunset": 1552175369,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 200,
+    "speed": 3.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.21,
+    "lon": -87.57
+  },
+  "dt": 1552096322,
+  "id": 4094455,
+  "main": {
+    "humidity": 68,
+    "pressure": 1016,
+    "temp": 19.62,
+    "temp_max": 21,
+    "temp_min": 18.33
+  },
+  "name": "Tuscaloosa",
+  "sys": {
+    "country": "US",
+    "id": 6001,
+    "message": 0.007,
+    "sunrise": 1552133314,
+    "sunset": 1552175609,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 190,
+    "speed": 4.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 75
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 32.42,
+    "lon": -85.69
+  },
+  "dt": 1552096379,
+  "id": 4094490,
+  "main": {
+    "humidity": 77,
+    "pressure": 1017,
+    "temp": 18.44,
+    "temp_max": 20,
+    "temp_min": 17
+  },
+  "name": "Tuskegee",
+  "sys": {
+    "country": "US",
+    "id": 3280,
+    "message": 0.0043,
+    "sunrise": 1552132844,
+    "sunset": 1552175175,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 200,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 32.82,
+    "lon": -85.18
+  },
+  "dt": 1552096152,
+  "id": 4095186,
+  "main": {
+    "humidity": 52,
+    "pressure": 1017,
+    "temp": 17.78,
+    "temp_max": 19,
+    "temp_min": 15.56
+  },
+  "name": "Valley",
+  "sys": {
+    "country": "US",
+    "id": 4705,
+    "message": 0.0041,
+    "sunrise": 1552132731,
+    "sunset": 1552175044,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 180,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.45,
+    "lon": -86.79
+  },
+  "dt": 1552096384,
+  "id": 4095415,
+  "main": {
+    "humidity": 64,
+    "pressure": 1016,
+    "temp": 19.37,
+    "temp_max": 21,
+    "temp_min": 17.78
+  },
+  "name": "Vestavia Hills",
+  "sys": {
+    "country": "US",
+    "id": 5791,
+    "message": 0.0066,
+    "sunrise": 1552133132,
+    "sunset": 1552175416,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "thunderstorm",
+      "icon": "11n",
+      "id": 211,
+      "main": "Thunderstorm"
+    }
+  ],
+  "wind": {
+    "deg": 210,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.12,
+    "lon": -93.05
+  },
+  "dt": 1552096377,
+  "id": 4099647,
+  "main": {
+    "humidity": 100,
+    "pressure": 1011,
+    "temp": 15.2,
+    "temp_max": 20,
+    "temp_min": 12.22
+  },
+  "name": "Arkadelphia",
+  "sys": {
+    "country": "US",
+    "id": 4398,
+    "message": 0.0046,
+    "sunrise": 1552134650,
+    "sunset": 1552176903,
+    "type": 1
+  },
+  "visibility": 4023,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 35.77,
+    "lon": -91.64
+  },
+  "dt": 1552096405,
+  "id": 4100525,
+  "main": {
+    "humidity": 100,
+    "pressure": 1015,
+    "temp": 6.71,
+    "temp_max": 8,
+    "temp_min": 5.56
+  },
+  "name": "Batesville",
+  "sys": {
+    "country": "US",
+    "id": 3532,
+    "message": 0.0046,
+    "sunrise": 1552134353,
+    "sunset": 1552176526,
+    "type": 1
+  },
+  "visibility": 2012,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 50,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 75
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 36.43,
+    "lon": -94.23
+  },
+  "dt": 1552096184,
+  "id": 4101114,
+  "main": {
+    "humidity": 100,
+    "pressure": 1011,
+    "temp": 7.43,
+    "temp_max": 10.56,
+    "temp_min": 5.56
+  },
+  "name": "Bella Vista",
+  "sys": {
+    "country": "US",
+    "id": 3318,
+    "message": 0.0067,
+    "sunrise": 1552134991,
+    "sunset": 1552177132,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 75
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 36.48,
+    "lon": -94.27
+  },
+  "dt": 1552096441,
+  "id": 4101115,
+  "main": {
+    "humidity": 100,
+    "pressure": 1011,
+    "temp": 7.38,
+    "temp_max": 10.56,
+    "temp_min": 5.56
+  },
+  "name": "Bella Vista",
+  "sys": {
+    "country": "US",
+    "id": 3318,
+    "message": 0.0054,
+    "sunrise": 1552135001,
+    "sunset": 1552177140,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.56,
+    "lon": -92.59
+  },
+  "dt": 1552096375,
+  "id": 4101241,
+  "main": {
+    "humidity": 100,
+    "pressure": 1011,
+    "temp": 11.09,
+    "temp_max": 16,
+    "temp_min": 8.33
+  },
+  "name": "Benton",
+  "sys": {
+    "country": "US",
+    "id": 4398,
+    "message": 0.0052,
+    "sunrise": 1552134550,
+    "sunset": 1552176783,
+    "type": 1
+  },
+  "visibility": 4023,
+  "weather": [
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 75
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 36.37,
+    "lon": -94.21
+  },
+  "dt": 1552096441,
+  "id": 4101260,
+  "main": {
+    "humidity": 100,
+    "pressure": 1011,
+    "temp": 7.38,
+    "temp_max": 10.56,
+    "temp_min": 5.56
+  },
+  "name": "Bentonville",
+  "sys": {
+    "country": "US",
+    "id": 3318,
+    "message": 0.0067,
+    "sunrise": 1552134984,
+    "sunset": 1552177128,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 35.93,
+    "lon": -89.92
+  },
+  "dt": 1552096418,
+  "id": 4102412,
+  "main": {
+    "humidity": 100,
+    "pressure": 1015,
+    "temp": 8.7,
+    "temp_max": 11,
+    "temp_min": 6.11
+  },
+  "name": "Blytheville",
+  "rain": {
+    "1h": 0.25
+  },
+  "sys": {
+    "country": "US",
+    "id": 6030,
+    "message": 0.0056,
+    "sunrise": 1552133944,
+    "sunset": 1552176109,
+    "type": 1
+  },
+  "visibility": 2414,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 40,
+    "speed": 4.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.6,
+    "lon": -92.49
+  },
+  "dt": 1552096204,
+  "id": 4103448,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 11.09,
+    "temp_max": 16,
+    "temp_min": 8.33
+  },
+  "name": "Bryant",
+  "sys": {
+    "country": "US",
+    "id": 4758,
+    "message": 0.006,
+    "sunrise": 1552134527,
+    "sunset": 1552176758,
+    "type": 1
+  },
+  "visibility": 2213,
+  "weather": [
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 40,
+    "speed": 4.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.97,
+    "lon": -92.02
+  },
+  "dt": 1552096058,
+  "id": 4103957,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 9.09,
+    "temp_max": 10.56,
+    "temp_min": 7.78
+  },
+  "name": "Cabot",
+  "sys": {
+    "country": "US",
+    "id": 4758,
+    "message": 0.0043,
+    "sunrise": 1552134424,
+    "sunset": 1552176636,
+    "type": 1
+  },
+  "visibility": 2213,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    }
+  ],
+  "wind": {
+    "deg": 40,
+    "speed": 4.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.58,
+    "lon": -92.83
+  },
+  "dt": 1552096371,
+  "id": 4104182,
+  "main": {
+    "humidity": 88,
+    "pressure": 1011,
+    "temp": 20.33,
+    "temp_max": 22,
+    "temp_min": 18
+  },
+  "name": "Camden",
+  "sys": {
+    "country": "US",
+    "id": 3591,
+    "message": 0.0043,
+    "sunrise": 1552134584,
+    "sunset": 1552176863,
+    "type": 1
+  },
+  "visibility": 11265,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 150,
+    "speed": 2.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 35.09,
+    "lon": -92.44
+  },
+  "dt": 1552096405,
+  "id": 4106458,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 9.63,
+    "temp_max": 12.78,
+    "temp_min": 6.67
+  },
+  "name": "Conway",
+  "sys": {
+    "country": "US",
+    "id": 3764,
+    "message": 0.0059,
+    "sunrise": 1552134527,
+    "sunset": 1552176734,
+    "type": 1
+  },
+  "visibility": 805,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    }
+  ],
+  "wind": {
+    "deg": 60,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.21,
+    "lon": -92.67
+  },
+  "dt": 1552096371,
+  "id": 4109785,
+  "main": {
+    "humidity": 88,
+    "pressure": 1011,
+    "temp": 20.92,
+    "temp_max": 22,
+    "temp_min": 20
+  },
+  "name": "El Dorado",
+  "sys": {
+    "country": "US",
+    "id": 3591,
+    "message": 0.0039,
+    "sunrise": 1552134537,
+    "sunset": 1552176833,
+    "type": 1
+  },
+  "visibility": 11265,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 150,
+    "speed": 2.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 75
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 36.06,
+    "lon": -94.16
+  },
+  "dt": 1552096396,
+  "id": 4110486,
+  "main": {
+    "humidity": 100,
+    "pressure": 1011,
+    "temp": 7.96,
+    "temp_max": 12,
+    "temp_min": 5.56
+  },
+  "name": "Fayetteville",
+  "sys": {
+    "country": "US",
+    "id": 3318,
+    "message": 0.0052,
+    "sunrise": 1552134964,
+    "sunset": 1552177124,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "broken clouds",
+      "icon": "04n",
+      "id": 803,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 35.01,
+    "lon": -90.79
+  },
+  "dt": 1552096368,
+  "id": 4111382,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 11.01,
+    "temp_max": 13,
+    "temp_min": 7.78
+  },
+  "name": "Forrest City",
+  "rain": {
+    "1h": 0.51
+  },
+  "sys": {
+    "country": "US",
+    "id": 3364,
+    "message": 0.0036,
+    "sunrise": 1552134130,
+    "sunset": 1552176340,
+    "type": 1
+  },
+  "visibility": 3219,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 60,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 1
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 35.39,
+    "lon": -94.4
+  },
+  "dt": 1552096372,
+  "id": 4111410,
+  "main": {
+    "humidity": 77,
+    "pressure": 1009,
+    "temp": 14.81,
+    "temp_max": 16.67,
+    "temp_min": 13.89
+  },
+  "name": "Fort Smith",
+  "sys": {
+    "country": "US",
+    "id": 5672,
+    "message": 0.0065,
+    "sunrise": 1552135005,
+    "sunset": 1552177198,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    }
+  ],
+  "wind": {
+    "deg": 50,
+    "speed": 1.5
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 36.23,
+    "lon": -93.11
+  },
+  "dt": 1552096268,
+  "id": 4113956,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 5.91,
+    "temp_max": 7.22,
+    "temp_min": 5
+  },
+  "name": "Harrison",
+  "sys": {
+    "country": "US",
+    "id": 3389,
+    "message": 0.0055,
+    "sunrise": 1552134717,
+    "sunset": 1552176868,
+    "type": 1
+  },
+  "visibility": 201,
+  "weather": [
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    },
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 120,
+    "speed": 5.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 1
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.67,
+    "lon": -93.59
+  },
+  "dt": 1552096380,
+  "id": 4115181,
+  "main": {
+    "humidity": 73,
+    "pressure": 1010,
+    "temp": 21.51,
+    "temp_max": 22.78,
+    "temp_min": 19.44
+  },
+  "name": "Hope",
+  "sys": {
+    "country": "US",
+    "id": 6094,
+    "message": 0.003,
+    "sunrise": 1552134768,
+    "sunset": 1552177044,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    }
+  ],
+  "wind": {
+    "deg": 170,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.5,
+    "lon": -93.06
+  },
+  "dt": 1552096204,
+  "id": 4115412,
+  "main": {
+    "humidity": 100,
+    "pressure": 1011,
+    "temp": 13.13,
+    "temp_max": 18,
+    "temp_min": 8.89
+  },
+  "name": "Hot Springs",
+  "sys": {
+    "country": "US",
+    "id": 4398,
+    "message": 0.0047,
+    "sunrise": 1552134661,
+    "sunset": 1552176897,
+    "type": 1
+  },
+  "visibility": 4023,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.87,
+    "lon": -92.11
+  },
+  "dt": 1552096058,
+  "id": 4116315,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 9.09,
+    "temp_max": 10.56,
+    "temp_min": 7.78
+  },
+  "name": "Jacksonville",
+  "sys": {
+    "country": "US",
+    "id": 4758,
+    "message": 0.005,
+    "sunrise": 1552134443,
+    "sunset": 1552176660,
+    "type": 1
+  },
+  "visibility": 2213,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    }
+  ],
+  "wind": {
+    "deg": 40,
+    "speed": 4.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 35.84,
+    "lon": -90.7
+  },
+  "dt": 1552096124,
+  "id": 4116834,
+  "main": {
+    "humidity": 100,
+    "pressure": 1015,
+    "temp": 6.45,
+    "temp_max": 7.78,
+    "temp_min": 5.56
+  },
+  "name": "Jonesboro",
+  "sys": {
+    "country": "US",
+    "id": 4566,
+    "message": 0.0041,
+    "sunrise": 1552134129,
+    "sunset": 1552176298,
+    "type": 1
+  },
+  "visibility": 4828,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    }
+  ],
+  "wind": {
+    "deg": 40,
+    "speed": 4.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.75,
+    "lon": -92.29
+  },
+  "dt": 1552096058,
+  "id": 4119403,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 9.79,
+    "temp_max": 13.33,
+    "temp_min": 7.22
+  },
+  "name": "Little Rock",
+  "sys": {
+    "country": "US",
+    "id": 4758,
+    "message": 0.0043,
+    "sunrise": 1552134483,
+    "sunset": 1552176706,
+    "type": 1
+  },
+  "visibility": 2213,
+  "weather": [
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 40,
+    "speed": 4.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.27,
+    "lon": -93.24
+  },
+  "dt": 1552095989,
+  "id": 4120323,
+  "main": {
+    "humidity": 88,
+    "pressure": 1011,
+    "temp": 21.68,
+    "temp_max": 23,
+    "temp_min": 20
+  },
+  "name": "Magnolia",
+  "sys": {
+    "country": "US",
+    "id": 3591,
+    "message": 0.004,
+    "sunrise": 1552134675,
+    "sunset": 1552176969,
+    "type": 1
+  },
+  "visibility": 11265,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 150,
+    "speed": 2.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.36,
+    "lon": -92.81
+  },
+  "dt": 1552096374,
+  "id": 4120388,
+  "main": {
+    "humidity": 100,
+    "pressure": 1011,
+    "temp": 12.48,
+    "temp_max": 18,
+    "temp_min": 8.89
+  },
+  "name": "Malvern",
+  "sys": {
+    "country": "US",
+    "id": 4398,
+    "message": 0.0044,
+    "sunrise": 1552134598,
+    "sunset": 1552176840,
+    "type": 1
+  },
+  "visibility": 4023,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 35.21,
+    "lon": -90.2
+  },
+  "dt": 1552096377,
+  "id": 4120524,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 11.41,
+    "temp_max": 14.44,
+    "temp_min": 9.44
+  },
+  "name": "Marion",
+  "rain": {
+    "1h": 0.32
+  },
+  "sys": {
+    "country": "US",
+    "id": 3364,
+    "message": 0.005,
+    "sunrise": 1552133993,
+    "sunset": 1552176193,
+    "type": 1
+  },
+  "visibility": 3219,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 60,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.87,
+    "lon": -92.4
+  },
+  "dt": 1552096375,
+  "id": 4120792,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 10.1,
+    "temp_max": 14.44,
+    "temp_min": 7.22
+  },
+  "name": "Maumelle",
+  "sys": {
+    "country": "US",
+    "id": 4758,
+    "message": 0.0043,
+    "sunrise": 1552134512,
+    "sunset": 1552176730,
+    "type": 1
+  },
+  "visibility": 2213,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    }
+  ],
+  "wind": {
+    "deg": 40,
+    "speed": 4.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.63,
+    "lon": -91.79
+  },
+  "dt": 1552096378,
+  "id": 4122015,
+  "main": {
+    "humidity": 83,
+    "pressure": 1012,
+    "temp": 19.21,
+    "temp_max": 21,
+    "temp_min": 17.78
+  },
+  "name": "Monticello",
+  "sys": {
+    "country": "US",
+    "id": 4727,
+    "message": 0.004,
+    "sunrise": 1552134336,
+    "sunset": 1552176612,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 160,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 36.34,
+    "lon": -92.39
+  },
+  "dt": 1552096373,
+  "id": 4123037,
+  "main": {
+    "humidity": 100,
+    "pressure": 1014,
+    "temp": 5.98,
+    "temp_max": 7.22,
+    "temp_min": 5
+  },
+  "name": "Mountain Home",
+  "sys": {
+    "country": "US",
+    "id": 3492,
+    "message": 0.0046,
+    "sunrise": 1552134547,
+    "sunset": 1552176692,
+    "type": 1
+  },
+  "visibility": 1207,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    }
+  ],
+  "wind": {
+    "deg": 120,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.77,
+    "lon": -92.27
+  },
+  "dt": 1552096379,
+  "id": 4124112,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 9.47,
+    "temp_max": 12.78,
+    "temp_min": 7.22
+  },
+  "name": "North Little Rock",
+  "sys": {
+    "country": "US",
+    "id": 4758,
+    "message": 0.0042,
+    "sunrise": 1552134479,
+    "sunset": 1552176701,
+    "type": 1
+  },
+  "visibility": 2213,
+  "weather": [
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 40,
+    "speed": 4.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 36.06,
+    "lon": -90.5
+  },
+  "dt": 1552096418,
+  "id": 4125388,
+  "main": {
+    "humidity": 107,
+    "pressure": 1015,
+    "temp": 6.77,
+    "temp_max": 8,
+    "temp_min": 5.56
+  },
+  "name": "Paragould",
+  "rain": {
+    "1h": 0.25
+  },
+  "sys": {
+    "country": "US",
+    "id": 2970,
+    "message": 0.0043,
+    "sunrise": 1552134087,
+    "sunset": 1552176245,
+    "type": 1
+  },
+  "visibility": 1609,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 60,
+    "speed": 4.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.23,
+    "lon": -92
+  },
+  "dt": 1552096379,
+  "id": 4126226,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 12.58,
+    "temp_max": 21,
+    "temp_min": 8.89
+  },
+  "name": "Pine Bluff",
+  "sys": {
+    "country": "US",
+    "id": 5830,
+    "message": 0.0038,
+    "sunrise": 1552134401,
+    "sunset": 1552176649,
+    "type": 1
+  },
+  "visibility": 4023,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    }
+  ],
+  "wind": {
+    "deg": 30,
+    "speed": 5.7
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 75
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 36.33,
+    "lon": -94.12
+  },
+  "dt": 1552096425,
+  "id": 4128894,
+  "main": {
+    "humidity": 100,
+    "pressure": 1011,
+    "temp": 7.32,
+    "temp_max": 10.56,
+    "temp_min": 5.56
+  },
+  "name": "Rogers",
+  "sys": {
+    "country": "US",
+    "id": 3318,
+    "message": 0.0055,
+    "sunrise": 1552134962,
+    "sunset": 1552177108,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 35.28,
+    "lon": -93.13
+  },
+  "dt": 1552096378,
+  "id": 4129397,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 10.35,
+    "temp_max": 11.67,
+    "temp_min": 8.33
+  },
+  "name": "Russellville",
+  "sys": {
+    "country": "US",
+    "id": 3764,
+    "message": 0.0125,
+    "sunrise": 1552134698,
+    "sunset": 1552176895,
+    "type": 1
+  },
+  "visibility": 805,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 60,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 35.25,
+    "lon": -91.74
+  },
+  "dt": 1552096405,
+  "id": 4130430,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 7.59,
+    "temp_max": 9,
+    "temp_min": 5.56
+  },
+  "name": "Searcy",
+  "sys": {
+    "country": "US",
+    "id": 4758,
+    "message": 0.0052,
+    "sunrise": 1552134364,
+    "sunset": 1552176562,
+    "type": 1
+  },
+  "visibility": 2213,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    }
+  ],
+  "wind": {
+    "deg": 40,
+    "speed": 4.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 75
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 36.19,
+    "lon": -94.54
+  },
+  "dt": 1552096207,
+  "id": 4131116,
+  "main": {
+    "humidity": 100,
+    "pressure": 1011,
+    "temp": 8.25,
+    "temp_max": 12,
+    "temp_min": 6.67
+  },
+  "name": "Siloam Springs",
+  "sys": {
+    "country": "US",
+    "id": 3318,
+    "message": 0.0056,
+    "sunrise": 1552135059,
+    "sunset": 1552177212,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "broken clouds",
+      "icon": "04n",
+      "id": 803,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 75
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 36.19,
+    "lon": -94.13
+  },
+  "dt": 1552096356,
+  "id": 4132093,
+  "main": {
+    "humidity": 100,
+    "pressure": 1011,
+    "temp": 7.71,
+    "temp_max": 11.67,
+    "temp_min": 5.56
+  },
+  "name": "Springdale",
+  "sys": {
+    "country": "US",
+    "id": 3318,
+    "message": 0.0057,
+    "sunrise": 1552134960,
+    "sunset": 1552177113,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "broken clouds",
+      "icon": "04n",
+      "id": 803,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.5,
+    "lon": -91.55
+  },
+  "dt": 1552096379,
+  "id": 4132625,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 11.28,
+    "temp_max": 18,
+    "temp_min": 7.22
+  },
+  "name": "Stuttgart",
+  "sys": {
+    "country": "US",
+    "id": 5830,
+    "message": 0.0046,
+    "sunrise": 1552134299,
+    "sunset": 1552176534,
+    "type": 1
+  },
+  "visibility": 4023,
+  "weather": [
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    },
+    {
+      "description": "fog",
+      "icon": "50n",
+      "id": 741,
+      "main": "Fog"
+    }
+  ],
+  "wind": {
+    "deg": 30,
+    "speed": 5.7
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 1
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.44,
+    "lon": -94.04
+  },
+  "dt": 1552096380,
+  "id": 4133367,
+  "main": {
+    "humidity": 73,
+    "pressure": 1010,
+    "temp": 21.61,
+    "temp_max": 22.78,
+    "temp_min": 20
+  },
+  "name": "Texarkana",
+  "sys": {
+    "country": "US",
+    "id": 6094,
+    "message": 0.0043,
+    "sunrise": 1552134871,
+    "sunset": 1552177157,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    }
+  ],
+  "wind": {
+    "deg": 170,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 1
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 33.44,
+    "lon": -94.04
+  },
+  "dt": 1552096380,
+  "id": 4133367,
+  "main": {
+    "humidity": 73,
+    "pressure": 1010,
+    "temp": 21.61,
+    "temp_max": 22.78,
+    "temp_min": 20
+  },
+  "name": "Texarkana",
+  "sys": {
+    "country": "US",
+    "id": 6094,
+    "message": 0.0043,
+    "sunrise": 1552134871,
+    "sunset": 1552177157,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    }
+  ],
+  "wind": {
+    "deg": 170,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 1
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 35.44,
+    "lon": -94.35
+  },
+  "dt": 1552096217,
+  "id": 4134716,
+  "main": {
+    "humidity": 77,
+    "pressure": 1009,
+    "temp": 13.77,
+    "temp_max": 16,
+    "temp_min": 11.67
+  },
+  "name": "Van Buren",
+  "sys": {
+    "country": "US",
+    "id": 5672,
+    "message": 0.0043,
+    "sunrise": 1552134994,
+    "sunset": 1552177184,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    }
+  ],
+  "wind": {
+    "deg": 50,
+    "speed": 1.5
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 34.55,
+    "lon": -90.64
+  },
+  "dt": 1552096023,
+  "id": 4135840,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 16.21,
+    "temp_max": 19,
+    "temp_min": 13
+  },
+  "name": "West Helena",
+  "rain": {
+    "1h": 0.38
+  },
+  "sys": {
+    "country": "US",
+    "id": 3638,
+    "message": 0.0036,
+    "sunrise": 1552134082,
+    "sunset": 1552176315,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    }
+  ],
+  "wind": {
+    "deg": 160,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 35.15,
+    "lon": -90.18
+  },
+  "dt": 1552096377,
+  "id": 4135865,
+  "main": {
+    "humidity": 100,
+    "pressure": 1013,
+    "temp": 11.46,
+    "temp_max": 14.44,
+    "temp_min": 9.44
+  },
+  "name": "West Memphis",
+  "rain": {
+    "1h": 0.32
+  },
+  "sys": {
+    "country": "US",
+    "id": 3364,
+    "message": 0.0056,
+    "sunrise": 1552133987,
+    "sunset": 1552176190,
+    "type": 1
+  },
+  "visibility": 3219,
+  "weather": [
+    {
+      "description": "moderate rain",
+      "icon": "10n",
+      "id": 501,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 60,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 39.67,
+    "lon": -75.73
+  },
+  "dt": 1552096450,
+  "id": 4141674,
+  "main": {
+    "humidity": 86,
+    "pressure": 1024,
+    "temp": 0.21,
+    "temp_max": 1.11,
+    "temp_min": -1.11
+  },
+  "name": "Brookside",
+  "rain": {
+    "1h": 0.34
+  },
+  "snow": {
+    "1h": 0.01
+  },
+  "sys": {
+    "country": "US",
+    "id": 5344,
+    "message": 0.0186,
+    "sunrise": 1552130642,
+    "sunset": 1552172606,
+    "type": 1
+  },
+  "visibility": 9656,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    }
+  ],
+  "wind": {
+    "deg": 100,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 39.11,
+    "lon": -75.54
+  },
+  "dt": 1552096446,
+  "id": 4141748,
+  "main": {
+    "humidity": 100,
+    "pressure": 1023,
+    "temp": 0.97,
+    "temp_max": 2.22,
+    "temp_min": 0
+  },
+  "name": "Camden",
+  "rain": {
+    "1h": 0.29
+  },
+  "snow": {
+    "1h": 0.06
+  },
+  "sys": {
+    "country": "US",
+    "id": 3847,
+    "message": 0.0063,
+    "sunrise": 1552130581,
+    "sunset": 1552172575,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 1.5
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 39.8,
+    "lon": -75.46
+  },
+  "dt": 1552096412,
+  "id": 4141974,
+  "main": {
+    "humidity": 95,
+    "pressure": 1023,
+    "temp": 0.33,
+    "temp_max": 1.11,
+    "temp_min": -0.57
+  },
+  "name": "Claymont",
+  "rain": {
+    "1h": 0.38
+  },
+  "snow": {},
+  "sys": {
+    "country": "US",
+    "id": 5209,
+    "message": 0.0111,
+    "sunrise": 1552130581,
+    "sunset": 1552172538,
+    "type": 1
+  },
+  "visibility": 11265,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    }
+  ],
+  "wind": {
+    "deg": 182.001,
+    "speed": 1.96
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 39.16,
+    "lon": -75.52
+  },
+  "dt": 1552096410,
+  "id": 4142290,
+  "main": {
+    "humidity": 100,
+    "pressure": 1023,
+    "temp": 0.8,
+    "temp_max": 2,
+    "temp_min": 0
+  },
+  "name": "Dover",
+  "rain": {
+    "1h": 0.3
+  },
+  "snow": {
+    "1h": 0.04
+  },
+  "sys": {
+    "country": "US",
+    "id": 3847,
+    "message": 0.0083,
+    "sunrise": 1552130577,
+    "sunset": 1552172569,
+    "type": 1
+  },
+  "visibility": 6437,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 110,
+    "speed": 1.5
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 39.75,
+    "lon": -75.5
+  },
+  "dt": 1552096450,
+  "id": 4142398,
+  "main": {
+    "humidity": 86,
+    "pressure": 1024,
+    "temp": 0.3,
+    "temp_max": 1.11,
+    "temp_min": -0.57
+  },
+  "name": "Edgemoor",
+  "rain": {
+    "1h": 0.38
+  },
+  "snow": {},
+  "sys": {
+    "country": "US",
+    "id": 5344,
+    "message": 0.0088,
+    "sunrise": 1552130589,
+    "sunset": 1552172548,
+    "type": 1
+  },
+  "visibility": 9656,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    }
+  ],
+  "wind": {
+    "deg": 100,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 39.74,
+    "lon": -75.6
+  },
+  "dt": 1552096450,
+  "id": 4142424,
+  "main": {
+    "humidity": 86,
+    "pressure": 1024,
+    "temp": 0.31,
+    "temp_max": 1.11,
+    "temp_min": -0.57
+  },
+  "name": "Elsmere",
+  "rain": {
+    "1h": 0.38
+  },
+  "snow": {},
+  "sys": {
+    "country": "US",
+    "id": 5344,
+    "message": 0.0087,
+    "sunrise": 1552130613,
+    "sunset": 1552172573,
+    "type": 1
+  },
+  "visibility": 9656,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    }
+  ],
+  "wind": {
+    "deg": 100,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 38.69,
+    "lon": -75.39
+  },
+  "dt": 1552096445,
+  "id": 4142643,
+  "main": {
+    "humidity": 100,
+    "pressure": 1023,
+    "temp": 1.63,
+    "temp_max": 2.78,
+    "temp_min": 1
+  },
+  "name": "Georgetown",
+  "rain": {
+    "1h": 0.32
+  },
+  "sys": {
+    "country": "US",
+    "id": 3847,
+    "message": 0.0053,
+    "sunrise": 1552130533,
+    "sunset": 1552172550,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 1.5
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 39.45,
+    "lon": -75.72
+  },
+  "dt": 1552096450,
+  "id": 4143637,
+  "main": {
+    "humidity": 100,
+    "pressure": 1023,
+    "temp": 0.34,
+    "temp_max": 1.11,
+    "temp_min": -0.57
+  },
+  "name": "Middletown",
+  "rain": {
+    "1h": 0.34
+  },
+  "snow": {
+    "1h": 0.01
+  },
+  "sys": {
+    "country": "US",
+    "id": 3847,
+    "message": 0.0111,
+    "sunrise": 1552130633,
+    "sunset": 1552172609,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    },
+    {
+      "description": "light intensity drizzle",
+      "icon": "09n",
+      "id": 300,
+      "main": "Drizzle"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 1.5
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 38.91,
+    "lon": -75.43
+  },
+  "dt": 1552096445,
+  "id": 4143658,
+  "main": {
+    "humidity": 100,
+    "pressure": 1023,
+    "temp": 1.22,
+    "temp_max": 2.22,
+    "temp_min": 0
+  },
+  "name": "Milford",
+  "rain": {
+    "1h": 0.32
+  },
+  "snow": {
+    "1h": 0.07
+  },
+  "sys": {
+    "country": "US",
+    "id": 3847,
+    "message": 0.0079,
+    "sunrise": 1552130549,
+    "sunset": 1552172554,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 1.5
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 39.66,
+    "lon": -75.57
+  },
+  "dt": 1552096393,
+  "id": 4143834,
+  "main": {
+    "humidity": 95,
+    "pressure": 1023,
+    "temp": 0.39,
+    "temp_max": 1.67,
+    "temp_min": -0.57
+  },
+  "name": "New Castle",
+  "rain": {
+    "1h": 0.34
+  },
+  "snow": {
+    "1h": 0.01
+  },
+  "sys": {
+    "country": "US",
+    "id": 5209,
+    "message": 0.0134,
+    "sunrise": 1552130603,
+    "sunset": 1552172568,
+    "type": 1
+  },
+  "visibility": 11265,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    }
+  ],
+  "wind": {
+    "deg": 182.001,
+    "speed": 1.96
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 39.68,
+    "lon": -75.75
+  },
+  "dt": 1552096450,
+  "id": 4143861,
+  "main": {
+    "humidity": 95,
+    "pressure": 1023,
+    "temp": 0.19,
+    "temp_max": 1.11,
+    "temp_min": -1.11
+  },
+  "name": "Newark",
+  "rain": {
+    "1h": 0.38
+  },
+  "snow": {
+    "1h": 0.01
+  },
+  "sys": {
+    "country": "US",
+    "id": 4969,
+    "message": 0.0115,
+    "sunrise": 1552130647,
+    "sunset": 1552172610,
+    "type": 1
+  },
+  "visibility": 11265,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    }
+  ],
+  "wind": {
+    "deg": 182.001,
+    "speed": 1.96
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 39.73,
+    "lon": -75.7
+  },
+  "dt": 1552096450,
+  "id": 4144100,
+  "main": {
+    "humidity": 95,
+    "pressure": 1023,
+    "temp": 0.2,
+    "temp_max": 1.11,
+    "temp_min": -1.11
+  },
+  "name": "Pike Creek",
+  "rain": {
+    "1h": 0.38
+  },
+  "snow": {
+    "1h": 0.01
+  },
+  "sys": {
+    "country": "US",
+    "id": 5209,
+    "message": 0.0084,
+    "sunrise": 1552130636,
+    "sunset": 1552172597,
+    "type": 1
+  },
+  "visibility": 11265,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    }
+  ],
+  "wind": {
+    "deg": 182.001,
+    "speed": 1.96
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 38.64,
+    "lon": -75.61
+  },
+  "dt": 1552096445,
+  "id": 4144600,
+  "main": {
+    "humidity": 100,
+    "pressure": 1023,
+    "temp": 1.56,
+    "temp_max": 2.78,
+    "temp_min": 0.56
+  },
+  "name": "Seaford",
+  "rain": {
+    "1h": 0.3
+  },
+  "snow": {
+    "1h": 0.13
+  },
+  "sys": {
+    "country": "US",
+    "id": 3617,
+    "message": 0.0056,
+    "sunrise": 1552130585,
+    "sunset": 1552172604,
+    "type": 1
+  },
+  "visibility": 9656,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 113.001,
+    "speed": 0.91
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 39.3,
+    "lon": -75.6
+  },
+  "dt": 1552096450,
+  "id": 4144764,
+  "main": {
+    "humidity": 100,
+    "pressure": 1023,
+    "temp": 0.46,
+    "temp_max": 1.11,
+    "temp_min": -0.57
+  },
+  "name": "Smyrna",
+  "rain": {
+    "1h": 0.35
+  },
+  "snow": {
+    "1h": 0.02
+  },
+  "sys": {
+    "country": "US",
+    "id": 3847,
+    "message": 0.0079,
+    "sunrise": 1552130600,
+    "sunset": 1552172584,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    }
+  ],
+  "wind": {
+    "deg": 80,
+    "speed": 1.5
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 39.75,
+    "lon": -75.55
+  },
+  "dt": 1552096450,
+  "id": 4145381,
+  "main": {
+    "humidity": 86,
+    "pressure": 1024,
+    "temp": 0.3,
+    "temp_max": 1.11,
+    "temp_min": -0.57
+  },
+  "name": "Wilmington",
+  "rain": {
+    "1h": 0.38
+  },
+  "snow": {},
+  "sys": {
+    "country": "US",
+    "id": 5344,
+    "message": 0.0101,
+    "sunrise": 1552130601,
+    "sunset": 1552172560,
+    "type": 1
+  },
+  "visibility": 9656,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    }
+  ],
+  "wind": {
+    "deg": 100,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 39.69,
+    "lon": -75.58
+  },
+  "dt": 1552096450,
+  "id": 4145395,
+  "main": {
+    "humidity": 86,
+    "pressure": 1024,
+    "temp": 0.4,
+    "temp_max": 1.67,
+    "temp_min": -0.57
+  },
+  "name": "Wilmington Manor",
+  "rain": {
+    "1h": 0.38
+  },
+  "snow": {
+    "1h": 0.01
+  },
+  "sys": {
+    "country": "US",
+    "id": 5344,
+    "message": 0.0083,
+    "sunrise": 1552130607,
+    "sunset": 1552172569,
+    "type": 1
+  },
+  "visibility": 9656,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    },
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    },
+    {
+      "description": "mist",
+      "icon": "50n",
+      "id": 701,
+      "main": "Mist"
+    },
+    {
+      "description": "light snow",
+      "icon": "13n",
+      "id": 600,
+      "main": "Snow"
+    }
+  ],
+  "wind": {
+    "deg": 100,
+    "speed": 2.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 1
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 28.66,
+    "lon": -81.37
+  },
+  "dt": 1552096391,
+  "id": 4145941,
+  "main": {
+    "humidity": 77,
+    "pressure": 1021,
+    "temp": 18.8,
+    "temp_max": 21.11,
+    "temp_min": 16.67
+  },
+  "name": "Altamonte Springs",
+  "sys": {
+    "country": "US",
+    "id": 3800,
+    "message": 0.0084,
+    "sunrise": 1552131722,
+    "sunset": 1552174220,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    }
+  ],
+  "wind": {
+    "deg": 120,
+    "speed": 2.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 1
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 28.68,
+    "lon": -81.51
+  },
+  "dt": 1552096444,
+  "id": 4146166,
+  "main": {
+    "humidity": 77,
+    "pressure": 1021,
+    "temp": 18.74,
+    "temp_max": 21.11,
+    "temp_min": 16.11
+  },
+  "name": "Apopka",
+  "sys": {
+    "country": "US",
+    "id": 3800,
+    "message": 0.008,
+    "sunrise": 1552131756,
+    "sunset": 1552174253,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    }
+  ],
+  "wind": {
+    "deg": 125.501,
+    "speed": 4.41
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 1
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 30.33,
+    "lon": -81.4
+  },
+  "dt": 1552096590,
+  "id": 4146354,
+  "main": {
+    "humidity": 72,
+    "pressure": 1020,
+    "temp": 18.01,
+    "temp_max": 19.44,
+    "temp_min": 16.67
+  },
+  "name": "Atlantic Beach",
+  "sys": {
+    "country": "US",
+    "id": 4097,
+    "message": 0.0062,
+    "sunrise": 1552131767,
+    "sunset": 1552174191,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "clear sky",
+      "icon": "01n",
+      "id": 800,
+      "main": "Clear"
+    }
+  ],
+  "wind": {
+    "deg": 170,
+    "speed": 5.7
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 90
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 28.07,
+    "lon": -81.79
+  },
+  "dt": 1552096593,
+  "id": 4146389,
+  "main": {
+    "humidity": 68,
+    "pressure": 1021,
+    "temp": 18.6,
+    "temp_max": 21.11,
+    "temp_min": 15.56
+  },
+  "name": "Auburndale",
+  "sys": {
+    "country": "US",
+    "id": 3487,
+    "message": 0.0073,
+    "sunrise": 1552131809,
+    "sunset": 1552174333,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04n",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 140,
+    "speed": 2.1
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 20
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 25.96,
+    "lon": -80.14
+  },
+  "dt": 1552096326,
+  "id": 4146429,
+  "main": {
+    "humidity": 69,
+    "pressure": 1020,
+    "temp": 22.49,
+    "temp_max": 23.89,
+    "temp_min": 21.11
+  },
+  "name": "Aventura",
+  "sys": {
+    "country": "US",
+    "id": 4452,
+    "message": 0.006,
+    "sunrise": 1552131368,
+    "sunset": 1552173981,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "light rain",
+      "icon": "10n",
+      "id": 500,
+      "main": "Rain"
+    }
+  ],
+  "wind": {
+    "deg": 110,
+    "speed": 3.6
+  }
+}
+{
+  "base": "stations",
+  "clouds": {
+    "all": 40
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 27.6,
+    "lon": -81.51
+  },
+  "dt": 1552096326,
+  "id": 4146440,
+  "main": {
+    "humidity": 77,
+    "pressure": 1021,
+    "temp": 19.46,
+    "temp_max": 21.11,
+    "temp_min": 17.78
+  },
+  "name": "Avon Park",
+  "sys": {
+    "country": "US",
+    "id": 5805,
+    "message": 0.0054,
+    "sunrise": 1552131732,
+    "sunset": 1552174276,
+    "type": 1
+  },
+  "visibility": 16093,
+  "weather": [
+    {
+      "description": "scattered clouds",
+      "icon": "03n",
+      "id": 802,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 100,
+    "speed": 3.1
+  }
+}

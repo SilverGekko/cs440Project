@@ -22,6 +22,9 @@ def data_fetch(full_api_url):
     output = url.read().decode('utf-8')
     raw_api_dict = json.loads(output)
     url.close()
+    with open('weather_data.json', 'a') as fp:
+        json.dump(raw_api_dict, fp, sort_keys=True, indent=2)
+        fp.write('\n')
     return raw_api_dict
 
 def data_organizer(raw_api_dict):
@@ -41,6 +44,10 @@ def data_organizer(raw_api_dict):
         dt=time_converter(raw_api_dict.get('dt')),
         cloudiness=raw_api_dict.get('clouds').get('all')
     )
+    # file = open("weather_data.txt", "a")
+    # file.write(data)
+    # with open('data.json', 'w') as fp:
+    # json.dump(data, fp)
     return data
 
 def data_output(data):
