@@ -20,6 +20,4 @@ INNER JOIN WeatherData D
 ON W.OpenWeatherCode = D.CityCode
 WHERE S.lastlogoff != E.lastlogoff
 AND S.lastlogoff > 1552172400
-/* Online persona states only */
-AND S.PersonaState in (1,5,6)
 ORDER BY S.LocCityID
