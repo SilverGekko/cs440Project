@@ -126,7 +126,7 @@ app.post('/loc', function (req, res) {
             console.log(result[j].steamid )
             console.log(result[j].loccityid )
             if (typeof result[j].loccityid !== 'undefined' && typeof result[j].steamid !== 'undefined') {
-                var query = "INSERT INTO SteamUserData (SteamID, LocCityID, lastlogoff, PersonaState) VALUES (\"" + result[j].steamid + "\"," + result[j].loccityid + ", " + result[j].lastlogoff + ", " + result[j].personastate + ") ON DUPLICATE KEY UPDATE SteamID = SteamID;"
+                var query = "INSERT INTO EndRange (SteamID, LocCityID, lastlogoff, PersonaState) VALUES (\"" + result[j].steamid + "\"," + result[j].loccityid + ", " + result[j].lastlogoff + ", " + result[j].personastate + ") ON DUPLICATE KEY UPDATE SteamID = SteamID;"
             //pool.query("INSERT IGNORE INTO SteamUserData (SteamID, LocCityID, LastLogOff) VALUES (\"" + json_obj[i].steamid + "\",\"" + json_obj[i].loccityid.toString() + "\",\"" + json_obj[i].lastlogoff.toString() + "\");", function (error, results, fields) {
                 //console.log("before query")
                 //console.log(typeof query)
@@ -137,10 +137,89 @@ app.post('/loc', function (req, res) {
                         //console.log(fields);
                         //if (error) throw error;
                 //});
+
+                //stop when we get to the place we stopped before
+                if (result[j].steamid == '76561198001555939'){
+                    process.exit(0)
+                }
             }
         }
         
     }
+    res.redirect('back');
+});
+
+app.post('/weather', function (req, res) {
+    var json_data = fs.readFileSync(__dirname + "/OpenWeatherMap data/" + "weather_data.json").toString().split("}{")
+
+    for (let i = 1; i < json_data.length - 1; i++) {
+        json_data[i] = '{' + json_data[i] + '}'
+    }
+
+    json_data[0] = json_data[0] + '}'
+
+    json_data[json_data.length - 1] = '{' + json_data[json_data.length - 1]
+
+    //console.log(json_data)
+
+    counter = 0
+
+    //for each item in json_data
+    for (let i = 0; i < json_data.length; i++) {
+        try {
+        json_obj = JSON.parse(json_data[i])
+        }
+        catch (err) {
+            console.log("error caught: "+ json_data[i])
+        }
+        let good_counter = 0
+        // for each time stamp in the weather data list
+        for (let j = 0; j < json_obj.list.length; j++) {
+            // get the percentage of good weather vs bad weather
+
+            //if the piece of weather data was before the time we starting recording steam logins, skip to the next one
+            if (json_obj.list[j].dt < 1552255200 && json_obj.list[j].dt > 1552264200) {continue}
+
+            //if the weather id starts with 8, its good weather
+            if (String(json_obj.list[j].weather[0].id)[0] == '8') {
+                good_counter++
+            }
+        }
+        //console.log("length: " + json_obj.list.length)
+        good = good_counter / json_obj.list.length
+        bad = 1 - good
+        console.log(json_obj.city.id)
+        console.log("percent good: " + good)
+        console.log("percent bad: " + bad)
+        console.log(++counter)
+
+        var query = "INSERT INTO WeatherData (CityCode, PercentGood) VALUES (" + json_obj.city.id + "," + good + ") ON DUPLICATE KEY UPDATE CityCode = CityCode;"
+        pool.query(query)
+    }
+    res.redirect('back');
+});
+
+app.post('/translate', function (req, res) {
+    var json_data = fs.readFileSync(__dirname + "/convert_city_codes/json_folder/" + "steam_open_weather.json").toString()
+
+    var json_obj = JSON.parse(json_data)['0']
+
+    //console.log(json_obj)
+
+    var steam_city_codes = Object.keys(json_obj)
+
+    console.log(steam_city_codes)
+
+    //console.log(json_obj)
+
+    //var open_weather_codes = []
+
+    for (let i = 0; i < steam_city_codes.length; i++) {
+        var query = "INSERT INTO WeatherSteamJoin (SteamCode, OpenWeatherCode) VALUES (" + steam_city_codes[i] + "," + json_obj[steam_city_codes[i]].openweatherID + ") ON DUPLICATE KEY UPDATE SteamCode = SteamCode;"
+        pool.query(query)
+        //console.log(i)
+    }
+
     res.redirect('back');
 });
 

@@ -2,8 +2,20 @@ Hello World
 
 <div id="manualreport">
     <h3> Add Steam Data</h3>
-    <form id="SteamData" action="/populate" method="post">
-      SteamID: <br><input type="text" name="filename"><br>
+    <form id="SteamData" action="/loc" method="post">
+      SteamID: <br><input type="text" name="fn"><br>
     <br>
       <input type="submit" value="Submit">
+    </form>
+    <h3> Add Weather Data</h3>
+    <form id="Weather" action="/weather" method="post">
+    <h3>Add Weather Data</h3>
+    <br>
+      <input type="submit" value="Submit">
+    </form>
+    <form id="Translate" action="/translate" method="post">
+      <h3>Add Translation Table</h3>
+      <br>
+        <input type="submit" value="Submit">
+      </form>
 </div>
