@@ -42,7 +42,7 @@ def data_fetch(full_api_url):
     raw_api_dict = json.loads(output)
     print(raw_api_dict)
     url.close()
-    with open('weather_data.json', 'a') as fp:
+    with open('5_day_forecast_march_11th.json', 'a') as fp:
         json.dump(raw_api_dict, fp, sort_keys=True)
     return raw_api_dict
 
