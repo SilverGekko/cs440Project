@@ -80,7 +80,7 @@ app.post('/populate', function (req, res) {
         if (filename_list[file_idx] == '') {continue}
 
         var big_id_list = fs.readFileSync(__dirname + "/file_indexes/" + filename_list[file_idx]).toString().split("\n")
-        
+
         for (let i = 0; i < big_id_list.length; i++) {
             //pool.query("INSERT IGNORE INTO SteamUserData (SteamID, LocCityID, LastLogOff) VALUES (\"" + json_obj[i].steamid + "\",\"" + json_obj[i].loccityid.toString() + "\",\"" + json_obj[i].lastlogoff.toString() + "\");", function (error, results, fields) {
             pool.query("INSERT IGNORE INTO SteamUserData (SteamID) VALUES (\"" + big_id_list[i] + "\");", function (error, results, fields) {
@@ -104,7 +104,7 @@ app.get('/loc/:hour', function (req, res) {
     var big_id_list = fs.readFileSync(__dirname + "/StartRange.txt").toString().split("\n")
 
     console.log(big_id_list.length)
-    
+
     for (let i = 0; i < big_id_list.length; i+=100) {
         var api_link = api_url
         for (let j = i; j < i+100; j++) {
@@ -122,7 +122,7 @@ app.get('/loc/:hour', function (req, res) {
         //console.log("result", result)
 
         for (let j = 0; j < 100; j++) {
-            console.log("iteration: ", j) 
+            console.log("iteration: ", j)
 
 		try {
             if (typeof result[j].loccityid !== 'undefined' && typeof result[j].steamid !== 'undefined') {
@@ -150,7 +150,7 @@ app.get('/loc/:hour', function (req, res) {
 				continue
         	}
 		}
-        
+
     }
     res.redirect('back');
 });
@@ -190,19 +190,21 @@ app.post('/weather', function (req, res) {
             if (String(json_obj.list[j].weather[0].id)[0] == '8') {
                 good_counter++
             }
-        }
-        //console.log("length: " + json_obj.list.length)
-        good = good_counter / json_obj.list.length
-        bad = 1 - good
-        console.log(json_obj.city.id)
-        console.log("percent good: " + good)
-        console.log("percent bad: " + bad)
-        console.log(++counter)
-		lat = json_obj.city.coord.lat
-		lon = json_obj.city.coord.lon
+            //console.log("length: " + json_obj.list.length)
+            good = good_counter / json_obj.list.length
+            bad = 1 - good
+            console.log(json_obj.city.id)
+            console.log("percent good: " + good)
+            console.log("percent bad: " + bad)
+            console.log(++counter)
+            lat = json_obj.city.coord.lat
+            lon = json_obj.city.coord.lon
 
-        var query = "INSERT INTO WeatherData (CityCode, PercentGood, Lat, Lon) VALUES (" + json_obj.city.id + "," + good + "," + lat + ","+ lon +") ON DUPLICATE KEY UPDATE CityCode = CityCode;"
-        pool.query(query)
+            var query = "INSERT INTO WeatherDataByTimeStamp (CityCode, WeatherID, Lat, Lon, TimeStamp) VALUES (" + json_obj.city.id + "," + json_obj.list[j].weather[0].id + "," + lat + ","+ lon "," + json_obj.list[j].dt") ON DUPLICATE KEY UPDATE CityCode = CityCode;"
+            // var query = "INSERT INTO WeatherData (CityCode, PercentGood, Lat, Lon) VALUES (" + json_obj.city.id + "," + good + "," + lat + ","+ lon +") ON DUPLICATE KEY UPDATE CityCode = CityCode;"
+            pool.query(query)
+        }
+
     }
     res.redirect('back');
 });
