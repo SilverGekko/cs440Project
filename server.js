@@ -5,7 +5,7 @@ const express = require('express')
 var app = express()
 
 const syncmysql = require('sync-mysql')
-const port = 57789
+const port = 57777
 const path = require('path')
 const bodyParser = require("body-parser")
 
@@ -92,7 +92,7 @@ app.post('/populate', function (req, res) {
     res.redirect('back');
 });
 
-app.post('/loc', function (req, res) {
+app.get('/loc/:hour', function (req, res) {
 
     var top = req.body.top;
     var bottom = req.body.bottom;
@@ -101,7 +101,7 @@ app.post('/loc', function (req, res) {
     console.log(top)
     console.log(bottom)
 
-    var big_id_list = fs.readFileSync(__dirname + "/file_indexes/" + fn).toString().split("\n")
+    var big_id_list = fs.readFileSync(__dirname + "/StartRange.txt").toString().split("\n")
 
     console.log(big_id_list.length)
     
@@ -122,11 +122,13 @@ app.post('/loc', function (req, res) {
         //console.log("result", result)
 
         for (let j = 0; j < 100; j++) {
-            console.log("iteration: ", j)
-            console.log(result[j].steamid )
-            console.log(result[j].loccityid )
+            console.log("iteration: ", j) 
+
+		try {
             if (typeof result[j].loccityid !== 'undefined' && typeof result[j].steamid !== 'undefined') {
-                var query = "INSERT INTO EndRange (SteamID, LocCityID, lastlogoff, PersonaState) VALUES (\"" + result[j].steamid + "\"," + result[j].loccityid + ", " + result[j].lastlogoff + ", " + result[j].personastate + ") ON DUPLICATE KEY UPDATE SteamID = SteamID;"
+            	console.log(result[j].steamid )
+            	console.log(result[j].loccityid )
+                var query = "INSERT INTO Hour" + req.params.hour + "_0 (SteamID, LocCityID, lastlogoff, PersonaState) VALUES (\"" + result[j].steamid + "\"," + result[j].loccityid + ", " + result[j].lastlogoff + ", " + result[j].personastate + ") ON DUPLICATE KEY UPDATE SteamID = SteamID;"
             //pool.query("INSERT IGNORE INTO SteamUserData (SteamID, LocCityID, LastLogOff) VALUES (\"" + json_obj[i].steamid + "\",\"" + json_obj[i].loccityid.toString() + "\",\"" + json_obj[i].lastlogoff.toString() + "\");", function (error, results, fields) {
                 //console.log("before query")
                 //console.log(typeof query)
@@ -139,18 +141,22 @@ app.post('/loc', function (req, res) {
                 //});
 
                 //stop when we get to the place we stopped before
-                if (result[j].steamid == '76561198001555939'){
-                    process.exit(0)
-                }
-            }
-        }
+                //if (result[j].steamid == '76561198001555939'){
+                //   process.exit(0)
+                //}
+            	}
+			}
+			catch (e) {
+				continue
+        	}
+		}
         
     }
     res.redirect('back');
 });
 
 app.post('/weather', function (req, res) {
-    var json_data = fs.readFileSync(__dirname + "/OpenWeatherMap data/" + "weather_data.json").toString().split("}{")
+    var json_data = fs.readFileSync(__dirname + "/mar11.json").toString().split("}{")
 
     for (let i = 1; i < json_data.length - 1; i++) {
         json_data[i] = '{' + json_data[i] + '}'
@@ -192,8 +198,10 @@ app.post('/weather', function (req, res) {
         console.log("percent good: " + good)
         console.log("percent bad: " + bad)
         console.log(++counter)
+		lat = json_obj.city.coord.lat
+		lon = json_obj.city.coord.lon
 
-        var query = "INSERT INTO WeatherData (CityCode, PercentGood) VALUES (" + json_obj.city.id + "," + good + ") ON DUPLICATE KEY UPDATE CityCode = CityCode;"
+        var query = "INSERT INTO WeatherData (CityCode, PercentGood, Lat, Lon) VALUES (" + json_obj.city.id + "," + good + "," + lat + ","+ lon +") ON DUPLICATE KEY UPDATE CityCode = CityCode;"
         pool.query(query)
     }
     res.redirect('back');
