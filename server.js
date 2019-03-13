@@ -5,6 +5,7 @@ const express = require('express')
 var app = express()
 
 const syncmysql = require('sync-mysql')
+const mysql = require('mysql')
 const port = 57777
 const path = require('path')
 const bodyParser = require("body-parser")
@@ -24,6 +25,14 @@ var pool = new syncmysql({
 	password: "6575",
 	database: "cs440_pugliesn"
 });
+
+var pool2 = new syncmysql({
+	host: "45.79.77.63",
+	user: "cs440",
+	password: "6575",
+	database: "cs440_pugliesn"
+});
+
 //var syncSql = require('sync-sql');
 //var options = {
 //	host: "classmysql.engr.oregonstate.edu",
@@ -155,6 +164,61 @@ app.get('/loc/:hour', function (req, res) {
     res.redirect('back');
 });
 
+app.get('/results', function (req, res) {
+
+    for (let i = 19; i < 22; i++) {
+
+        top_range = 1552348800
+        bot_range = 1552348800 - 10800
+
+        if(i % 3 == 0 ) {
+            bot_range += 10800
+            top_range += 10800
+        }
+
+        var query = 
+        `SELECT S.SteamID, S.LocCityID, WSJ.OpenWeatherCode, WDTS.Lat, WDTS.Lon, WDTS.WeatherID ` +
+        `FROM Hour${i}_0 S ` + 
+        `INNER JOIN Hour${i + 1}_0 E ON S.SteamID = E.SteamID ` +
+        `INNER JOIN WeatherSteamJoin WSJ ON WSJ.SteamCode = S.LocCityID ` +
+        `LEFT JOIN (SELECT * FROM WeatherDataByTimeStamp ` +
+        `WHERE TimeStamp >= ${bot_range} ` +
+        `AND TimeStamp <= ${top_range}) AS WDTS ON WDTS.CityCode = WSJ.OpenWeatherCode ` +
+        `WHERE S.PersonaState IN (1,5,6)` +
+        `AND E.PersonaState IN (0,2,3,4); `
+
+        //console.log(query)
+        console.log("Printing query:\n")
+        console.log(query)
+        result = pool.query(query)
+        //console.log(result)
+
+        // var file = fs.createWriteStream(`logon_good_${i}.txt`)
+        //console.log(typeof result[0].toString())
+        //console.log(JSON.stringify(result[0]))
+        //file.on('error', function(err) { console.log(err) });
+
+        var all_results = "[\n"
+        for (let item = 0; item < result.length - 2; item++) {
+            //console.log(JSON.stringify(result[item]))
+            all_results = all_results + JSON.stringify(result[item]) + ',' + '\n'
+        }
+            all_results = all_results + JSON.stringify(result[result.length - 2]) + '\n' + "]"
+        // fs.writeFile(`logon_good_${i}.txt`, result, (err) => {
+        //     if (err) throw err;
+        //     console.log("file written " + `logon_good_${i}.txt`)
+        // });
+        // file.write(JSON.stringify(all_results))
+        // file.end()
+
+        console.log("finished iteration" + String(i))
+
+        fs.writeFileSync(`logon_good_${i}.txt`, all_results)
+    }
+
+    res.redirect('back');
+});
+
 app.post('/weather', function (req, res) {
     var json_data = fs.readFileSync(__dirname + "/mar11.json").toString().split("}{")
 
@@ -184,7 +248,7 @@ app.post('/weather', function (req, res) {
             // get the percentage of good weather vs bad weather
 
             //if the piece of weather data was before the time we starting recording steam logins, skip to the next one
-            if (json_obj.list[j].dt < 1552255200 && json_obj.list[j].dt > 1552264200) {continue}
+            if (json_obj.list[j].dt < 1552341600 || json_obj.list[j].dt > 1552428000) {continue}
 
             //if the weather id starts with 8, its good weather
             if (String(json_obj.list[j].weather[0].id)[0] == '8') {
@@ -200,7 +264,7 @@ app.post('/weather', function (req, res) {
             lat = json_obj.city.coord.lat
             lon = json_obj.city.coord.lon
 
-            var query = "INSERT INTO WeatherDataByTimeStamp (CityCode, WeatherID, Lat, Lon, TimeStamp) VALUES (" + json_obj.city.id + "," + json_obj.list[j].weather[0].id + "," + lat + "," + lon "," + json_obj.list[j].dt + ") ON DUPLICATE KEY UPDATE CityCode = CityCode;"
+            var query = "INSERT INTO WeatherDataByTimeStamp (CityCode, WeatherID, Lat, Lon, TimeStamp) VALUES (" + json_obj.city.id + "," + json_obj.list[j].weather[0].id + "," + lat + "," + lon +"," + json_obj.list[j].dt + ") ON DUPLICATE KEY UPDATE CityCode = CityCode;"
             // var query = "INSERT INTO WeatherData (CityCode, PercentGood, Lat, Lon) VALUES (" + json_obj.city.id + "," + good + "," + lat + ","+ lon +") ON DUPLICATE KEY UPDATE CityCode = CityCode;"
             pool.query(query)
         }
