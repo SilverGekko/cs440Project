@@ -264,7 +264,11 @@ app.post('/weather', function (req, res) {
             lat = json_obj.city.coord.lat
             lon = json_obj.city.coord.lon
 
+<<<<<<< HEAD
             var query = "INSERT INTO WeatherDataByTimeStamp (CityCode, WeatherID, Lat, Lon, TimeStamp) VALUES (" + json_obj.city.id + "," + json_obj.list[j].weather[0].id + "," + lat + "," + lon +"," + json_obj.list[j].dt + ") ON DUPLICATE KEY UPDATE CityCode = CityCode;"
+=======
+            var query = "INSERT INTO WeatherDataByTimeStamp (CityCode, WeatherID, Lat, Lon, TimeStamp) VALUES (" + json_obj.city.id + "," + json_obj.list[j].weather[0].id + "," + lat + "," + lon + "," + json_obj.list[j].dt + ") ON DUPLICATE KEY UPDATE CityCode = CityCode;"
+>>>>>>> d3c8d6365287706addb5dfc8e9f50bcf859bc443
             // var query = "INSERT INTO WeatherData (CityCode, PercentGood, Lat, Lon) VALUES (" + json_obj.city.id + "," + good + "," + lat + ","+ lon +") ON DUPLICATE KEY UPDATE CityCode = CityCode;"
             pool.query(query)
         }
